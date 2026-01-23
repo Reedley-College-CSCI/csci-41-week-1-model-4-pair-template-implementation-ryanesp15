@@ -23,8 +23,25 @@ Pair<T>::Pair(T f, T s) {
     second = s;
 }
 
+template <typename T>
+T Pair<T>::getFirst() const {
+    return f;
+}
 
+template <typename T>
+T Pair<T>::getSecond() const {
+    return S;
+}
 
+template <typename T>
+void Pair<T>::setFirst(T f) {
+    fisrt = f;
+}
+
+template <typename T>
+void Pair<T>::setSecond(T s) {
+    second = s;
+}
 
 main() {
 
