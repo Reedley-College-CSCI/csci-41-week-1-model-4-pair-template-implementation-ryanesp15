@@ -45,7 +45,9 @@ void Pair<T>::setSecond(T s) {
 
 main() {
 
-    Pair<int> pairOne(5, 6);
+    Pair<int> pairOne(1, 2);
+
+    Pair<string> pairTwo("apple", "banana");
 }
 
 #endif
